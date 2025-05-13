@@ -18,14 +18,13 @@ This repository presents a **containerized Federated Learning (FL) pipeline** fo
 ## Tech Stack & Tools
 | Tool         | Category             | Purpose                                                               |
 |--------------|----------------------|-----------------------------------------------------------------------|
-| **YOLOv9**   | Object Detection     | Real-time object detection model used for FL training                  |
+| **YOLOv9t**   | Object Detection     | Real-time object detection model used for FL training                  |
 | **Optuna**   | Hyperparameter Tuning| Bayesian optimization with pruning for efficient tuning                |
 | **Flower**   | Federated Learning   | Orchestrates FL between server and multiple clients                    |
 | **Docker**   | Containerization     | Isolated, reproducible client/server environments                     |
 | **AWS EC2**  | Infrastructure       | Cloud instances for FL server & clients (autoscaling, crash recovery)  |
 | **ClearML**  | MLOps Monitoring     | Experiment tracking, metrics logging, drift detection                  |
 | **CloudWatch**| Infra Monitoring    | Tracks resource usage, participation, round duration, alerts           |
-| **GitHub Actions** | CI/CD Automation | Automated deployment pipelines                                         |
 
 ## System Architecture
 
